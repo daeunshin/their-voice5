@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<title>Their Voice</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,500i,700" rel="stylesheet">
+
+	<style>
+		*{font-family: 'Roboto', 'Roboto Condensed';}
+		html{font-family: 'Roboto', 'Roboto Condensed';}
+
+/*메뉴바*/
+		a:link, a:visited, a:active {text-decoration: none; color: white;}
+		nav{width: 100%;  position: fixed; margin : auto; height: 44px; background: black; opacity: 0.7; z-index: 9999;}
+		nav #logo {width: 200px;  height: 45px; text-align: center; line-height: 44px; float: left;}
+		nav #logo img{width: 40px; height: 30px;margin-top: 8px;}
+		nav #logo a{display: block; height: 44px; }
+		nav #logo a:hover {background: #737373; color: white;}
+		nav #mainNav{ float: right; margin: 0; padding: 0;}
+		nav #mainNav li {float: left; width: 130px; list-style: none; height: 44px;}
+		nav #mainNav a{ display: block; line-height: 44px; text-align: center; }
+		nav #mainNav a:hover{background:  #737373; color: white;}
+
+	
+/*배경이미지*/	
+		#back{width: 100%; position: absolute;}
+
+/*헤더*/	
+		header{width: 1200px; height: 550px; background: green; margin: auto;}
+		.header-texts {position: relative; top: 150px;}
+		.header-texts h1{font-size: 6em; line-height: 1em; font-family: Rovoto Condensed; padding-left: 2em; letter-spacing: -0.05em;}
+		.header-texts h2{margin: 0; font-size: 2em; font-family: Rovoto Condensed; margin-left: 1.3em;}
+/*
+		.wrap1 {width: 770px; height: 275px; margin: 4em; padding: 3em; background: yellow; list-style: none;}
+		.wrap1 img {height: 267px; width: 267px; overflow: hidden;border-radius: 50%;}
+		.wrap1 h1{font-size: 4em; background: blue; padding-left: 4.8em; padding-top: -1em;}
+		.wrap1 p{font-size: 1.3em; background: blue; padding-left: 15em;}
+*/
+		span, img{display: block; overflow: hidden;}
+		p{line-height: 1.6}
+		img{width: 100%;}
+/*메인메뉴*/
+		#first {width: 1050px; background: blue; margin: auto;}
+		#first img {width: 100%; margin: auto;}
+		#first h1 {font-size: 3.76em; padding-top: 1.5em;}
+		#first p {font-size: 1.2em;}
+
+/*이미지박스*/
+		section{width: 770px; background: yellow; margin: auto;margin-top: 3em;}
+		section:after{content: ""; display: block; clear: both;}
+
+		.col3{width: 30%; margin:1.65%;}
+		.section-texts{padding: 1.65%; }
+		.no-padding{padding: 0;}
+
+		.section-texts h2, .section-texts p {margin: 0;}
+		.section-texts h2{margin-bottom: 0.5em;}
+
+		.left {float: left;}
+		.right {float: right;}
+
+/*지도*/
+		#last {width: 1050px; background: blue; margin: auto;}
+		#last h1{font-size: 4em;}
+		#last p{font-size: 1.2em; padding-top: 1em;}
+
+
+	</style>
+</head>
+
+<body>
+	<!--  메뉴바  -->
+		<nav>
+			<div id="logo">
+				<a href="https://daeunshin.github.io/page1/" target="_blank"> <img src="butterfly.png"> </a>
+			</div>
+			<ul id="mainNav">
+			<li class="menuItem">
+				<a href="https://daeunshin.github.io/statue-of-peace/" target="_blank"> Statue of peace</a>
+			</li>
+			<li class="menuItem">
+				<a href="https://daeunshin.github.io/testimony3/" target="_blank"> Their voice</a>
+			</li>
+			<li class="menuItem">
+				<a href="https://daeunshin.github.io/page1/" target="_blank"> Story</a>
+			</li>
+		</nav>
+	<!--
+	<div id="img">
+			<img id="back" src="statue of peace.png">
+	</div>
+-->
+
+
+<!--헤더-->
+	<header>
+		<h2>
+			statue of a young girl
+		</h2>
+		<h1>
+		Statue of <br>
+		peace
+		</h1>
+	</header>
+
+
+	<div id="first">
+		<img src="./img/statue_of_peace.png">
+		<h1>
+			Even if every victims leave us,<br>
+			this girl will observe history to the end.
+		</h1>
+		<p>
+			The young girl sits on a wooden chair, her fists balled in her lap. She looks impassively forward, her expression unsmiling and determined. Her feet are bare, and on her shoulder sits a small bird. The girl represents those who were forcefully and systematically sexually abused by Japanese during WWII.
+		</p>
+			
+	</div>
+<!--메인박스-->
+<section>
+		<div class="col3 left">
+			<img src="./img/hair.jpg">
+		</div>
+		<span class="section-texts">
+			<h2>Hair</h2>
+			<p>
+				In those days, cutting hair was an absolute impossibility for Korean because hair was part of their body that their parents handed to them.
+				And the statue's roughly cropped hair shows how these girls had their relationships with their family, hometown cut off against their will.
+			</p>
+		</span>
+	</section>
+
+	<section>
+		<div class="col3 right">
+			<img src="./img/hair.jpg">
+		</div>
+		<span class="section-texts">
+			<h2>Bird</h2>
+			<p>
+				The bird is a symbol of peace, freedom and liberation. It connects those victims who 'returned to the sky' without Japan's official apology and restitution and the ones who are still left on the ground.
+			</p>
+		</span>
+	</section>
+	
+	<section>
+		<div class="col3 left">
+			<img src="./img/fists.jpg">
+		</div>
+		<span class="section-texts">
+			<h2>Fists</h2>
+			<p>
+				The clenched fists represent how the victims will no longer stay silent about Japan's war crimes and want to tell the truth. It means strong will for peaceful world.
+			</p>
+		</span>
+	</section>
+
+		<section>
+		<div class="col3 right">
+			<img src="./img/shadow.jpg">
+		</div>
+		<span class="section-texts">
+			<h2>Shadow</h2>
+			<p>
+				Despite the statue being a girl, its shadow is that of an old woman. It represents the hardship the victims had to suffer all this time.
+			</p>
+		</span>
+	</section>
+
+	<section>
+		<div class="col3 left">
+			<img src="./img/shadow.jpg">
+		</div>
+		<span class="section-texts">
+			<h2>Butterfly</h2>
+			<p>
+				A white butterfly in the shadow's heart position represents reborn. We hope victims who already passed away without ease their deep-rooted grudge reborn at better world and fly at there.
+			</p>
+		</span>
+	</section>
+
+	<div id ="last">
+		<h1>The map of Statue of peace</h1>
+
+			<iframe src="https://www.google.com/maps/d/embed?mid=1mcMDBbNdoLJNvbLvoqFx9dJZi6o" width="1000" height="500"></iframe>
+		
+		<p>
+			At 1000th day of Wednesday assembly, December 14, 2011, the first Statue of peace is putted up to remember sadness of wartime and Japanese military saxual slavery problem and for peace. <br><br>
+			After first Statue of peace, there are more Statue of peaces are putted up at Korea, Canada and USA. The number of Statue of peace is increasing.There are 44 statue of peace in Korea and 4 Statue of peace at outside of Korea (December 14, 2016). 
+		</p>
+	</div>
+	
+	<footer>
+	</footer>
+</body>
+</html>
